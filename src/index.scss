@@ -1,0 +1,14 @@
+$light-blue: #F3F7FA;
+$black-font: #4A4A4A;
+
+* {font-family: "open Sans", sans-serif;}
+
+body {
+  background-color: $light-blue;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,31 @@
+.tabs-list {
+  display: flex;
+  flex-direction: row;
+  &__item {
+    box-sizing: border-box;
+    background-color: white;
+    border: solid 1px #DFE5EC;
+    padding: 13px 23px;
+    color: #4A4A4A;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    &:nth-child(2) {
+      border-left: none;
+      border-right: none;
+    }
+    &:first-child {
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+    &:last-child {
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    &:hover {
+      border-color: #2196F3;
+    }
+  }
+}

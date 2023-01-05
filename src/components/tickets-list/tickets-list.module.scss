@@ -1,0 +1,17 @@
+.tickets-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  &__button {
+    padding: 15px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #2196F3;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+  }
+}
